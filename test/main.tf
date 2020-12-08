@@ -4,10 +4,10 @@ provider "aws" {
 }
 
 module "ecr" {
-  source = "git::https://github.com/daniellesfuller/AWS_Modules.git//../ecr"
-  name = "testing00"
-  tags = {
-      name = "testing00"
-      type = "Repo"
+  source = "git::https://"
+  name   = "testing00"
+  tags   = {
+      Name = "testing00"
+      Type = "Repo"
   }
 }
