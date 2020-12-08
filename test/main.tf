@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "ecr" {
-  source = "git::https://github.com/daniellesfuller/AWS_Modules.git"
+  source = "git::https://github.com/daniellesfuller/AWS_Modules.git//../ecr"
   name = "testing00"
   tags = {
       name = "testing00"
