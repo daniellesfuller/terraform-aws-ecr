@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "ecr" {
-  source = "git::git@github.com:daniellesfuller/terraform_aws_ecr.git"
+  source = "git::git@github.com:daniellesfuller/terraform-aws-ecr.git"
   name   = "newrepo"
   tags   = {
       Name = "newrepo"
